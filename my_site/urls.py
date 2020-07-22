@@ -33,3 +33,4 @@ urlpatterns = [
     path('friend_add', FriendAdd.as_view(), name='friend_add'),
     path('friend_list', FriendList.as_view(), name='friend_list'),
 ]
+

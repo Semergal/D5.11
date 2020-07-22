@@ -132,6 +132,7 @@ class FriendAdd(CreateView):
     success_url = reverse_lazy('p_library:friend_list')
     template_name = 'friend_add.html'
 
+
 class FriendList(ListView):
     model = Friend
     template_name = 'friend_list.html'
